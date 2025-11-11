@@ -20,8 +20,13 @@ function calculate() {
   }
 }
 
+
 console.log(display);
 console.log(appendValue);
 console.log(clearDisplay);
 console.log(deleteLast);
 console.log(calculate);
+
+
+
+    
