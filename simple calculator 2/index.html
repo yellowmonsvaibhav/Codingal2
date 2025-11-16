@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easy Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="nav1">
+    <ul>
+        <li><a href="index.html"><img src="assets/home.svg"></a></li>
+        <li><a href="index.html"><img src="assets/about.svg"></a></li>
+        <li><a href="mailto:vaibhavgupta20514@outlook.com"><img src="assets/contact.svg"></a></li>
+        <li><a href="tel:9911968483"><img src="assets/contactphone.svg"></a></li>
+    </nav>
+
+
+
+    <div>
+
+        <main class="main1">
+            <h1>Enter numbers do addition , subtraction ,division and multiply it</h1>
+        </main>
+    </div>
+    <div cards>
+        <div class="card1">
+            <h1>Addition</h1>
+           <input class="num" type="number" id="num1" placeholder="First Number">
+           <input  class="num"type="number" id="num2" placeholder="Second Number">
+           <button onclick="add()">Add</button>
+           <p id="addResult"></p>
+        </div>
+        <div class="card1">
+            <h1>Subtraction</h1>
+            <input class="num" type="number" id="num1" placeholder="First Number">
+           <input  class="num"type="number" id="num2" placeholder="Second Number">
+           <button onclick="subtract()">Subtract</button>
+           <p id="subResult"></p>
+        </div>
+        <div class="card1">
+            <h1>Multiplication</h1>
+            <input class="num" type="number" id="num1" placeholder="First Number">
+           <input  class="num"type="number" id="num2" placeholder="Second Number">
+           <button onclick="multiply()">Multiply</button>
+           <p id="mulResult"></p>
+        </div>
+        <div class="card1">
+            <h1>Division</h1>
+            <input class="num" type="number" id="num1" placeholder="First Number">
+           <input  class="num"type="number" id="num2" placeholder="Second Number">
+           <button onclick="divide()">Divide</button>
+           <p id="divResult"></p>
+        </div>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
