@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    background-image: url(assets/download.webp);
+    line-height: 1.6;
+    padding: 20px;
+}
+.main1{
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    display: flex;
+    justify-content: center;
+}
+button{
+    display: block;
+    width: 100px;
+    padding: 10px;
+    margin: 20px auto;
+    font-size: 16px;
+    cursor: pointer;
+}
+.nav1{
+    background-color: transparent;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.nav1 ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.nav1 ul li{
+    margin: 0 15px;
+}
+.nav1 ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+.nav1 ul li a:hover img{
+    opacity: 0.8;
+}
+[cards]{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    align-items: stretch;
+    margin-top: 20px;
+}
+
+.card1{
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    min-height: 270px;
+}
+
+.card1 h1{
+    margin-bottom: 12px;
+    font-size: 20px;
+}
+
+ .num{
+    width: 120px;
+    padding: 10px;
+    margin: 10px auto;
+    font-size: 16px;
+    display: block;
+}
+.result{
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+button{
+    background:linear-gradient();
+    color: #fff;
+}
