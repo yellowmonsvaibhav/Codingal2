@@ -1,0 +1,15 @@
+{
+  "name": " OtakuSignature Studio",
+  "short_name": "OtakuSignature",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#0f0f12",
+  "theme_color": "#111",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/3131/3131620.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
